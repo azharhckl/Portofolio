@@ -1,0 +1,23 @@
+body {
+  min-height: 2000px;
+}
+
+:root {
+  --color-secondary: #f7418f;
+  --color-21: #fc819e;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #d5f0c1;
+}
+
+#projects {
+  background-color: #d5f0c1;
+}
+.name span {
+  color: var(--color-secondary);
+}
+.lead span {
+  color: var(--color-21);
+}
