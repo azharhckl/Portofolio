@@ -5,10 +5,12 @@ body {
 :root {
   --color-secondary: #f7418f;
   --color-21: #fc819e;
+  --color-22: #faa300;
+  --color-btn: #d5f0c1;
 }
 
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #d5f0c1;
 }
 
@@ -20,4 +22,10 @@ body {
 }
 .lead span {
   color: var(--color-21);
+}
+.isi span {
+  color: var(--color-22);
+}
+.btn btn-primary {
+  color: var(--color-btn);
 }
